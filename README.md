@@ -1,11 +1,11 @@
 CrudNote - Aplicación de Notas Colaborativas
-CrudNote es una Aplicación de Una Sola Página (SPA) diseñada para la gestión de notas, ofreciendo funcionalidades tanto personales como colaborativas. Permite a los usuarios registrarse, iniciar sesión y administrar sus notas de forma eficiente, con la posibilidad de compartirlas y controlar los permisos de acceso. Además, incorpora un robusto rol de administrador para la gestión integral del sistema.
+CrudNote es una Aplicación de Una Sola Página (SPA) diseñada para gestionar notas, con funcionalidades personales y colaborativas. Te permite registrarte, iniciar sesión y administrar tus notas de forma eficiente, incluyendo la opción de compartirlas y controlar los permisos de acceso. Además, cuenta con un robusto rol de administrador para una gestión integral del sistema.
 
 🌟 Características Principales
 Para Usuarios
-Autenticación Segura: Sistema completo de registro e inicio de sesión para garantizar la privacidad de tus notas.
+Autenticación Segura: Sistema completo de registro e inicio de sesión para mantener tus notas privadas.
 
-Gestión Completa de Notas (CRUD): Crea, lee, actualiza y elimina tus notas personales con facilidad.
+Gestión Completa de Notas (CRUD): Crea, lee, actualiza y elimina tus notas personales fácilmente.
 
 Editor de Notas Intuitivo: Cada nota puede incluir:
 
@@ -17,9 +17,9 @@ La opción de adjuntar una imagen, ya sea desde una URL externa o subiendo un ar
 
 Colaboración en Notas:
 
-Comparte notas de forma selectiva con otros usuarios registrados en la plataforma.
+Comparte notas selectivamente con otros usuarios registrados.
 
-Asigna permisos específicos a los colaboradores: solo lectura (readonly) o edición (edit).
+Asigna permisos específicos: solo lectura (readonly) o edición (edit).
 
 Visualiza notas compartidas por otros, con los permisos que te hayan sido otorgados.
 
@@ -27,28 +27,28 @@ Perfil de Usuario Detallado:
 
 Accede y visualiza tu información personal.
 
-Actualiza tu contraseña para mantener la seguridad de tu cuenta.
+Actualiza tu contraseña para mayor seguridad.
 
 Obtén un resumen rápido de las notas que has compartido.
 
-Tema Personalizable: Alterna cómodamente entre un tema claro y un tema oscuro para optimizar tu experiencia visual. Tu preferencia se guarda automáticamente en el navegador.
+Tema Personalizable: Cambia entre un tema claro y un tema oscuro para mayor comodidad visual. Tu preferencia se guarda automáticamente.
 
-Diseño Responsivo: Disfruta de una interfaz adaptada y optimizada para una visualización perfecta en una amplia gama de dispositivos, desde ordenadores de escritorio hasta teléfonos móviles y tabletas.
+Diseño Responsivo: Disfruta de una interfaz adaptada para una visualización perfecta en cualquier dispositivo, desde ordenadores de escritorio hasta móviles.
 
 Para Administradores
-Panel de Administración Centralizado: Una sección exclusiva que otorga control total y una visión general de la aplicación.
+Panel de Administración Centralizado: Una sección exclusiva que te da control total y una visión general de la aplicación.
 
 Gestión Integral de Usuarios:
 
-Visualiza a todos los usuarios registrados en el sistema.
+Visualiza a todos los usuarios registrados.
 
-Capacidad para eliminar usuarios cuando sea necesario.
+Puedes eliminar usuarios cuando sea necesario.
 
 Control Total sobre Notas:
 
-Accede, edita y elimina notas creadas por CUALQUIER usuario del sistema.
+Accede, edita y elimina notas de CUALQUIER usuario del sistema.
 
-Estadísticas Generales: Un contador simple y claro que muestra el número total de usuarios y notas activas en la plataforma, facilitando la monitorización del crecimiento de la aplicación.
+Estadísticas Generales: Un contador simple que muestra el número total de usuarios y notas activas, facilitando la monitorización del crecimiento.
 
 Gestión de Suscripciones: Visualiza y elimina las suscripciones al boletín.
 
@@ -60,15 +60,15 @@ HTML5: Para la estructura semántica de la página.
 
 CSS3: Para el estilado y diseño visual.
 
-JavaScript (ES6+ Modules): Para la lógica del lado del cliente, el enrutamiento de la SPA y la interacción dinámica.
+JavaScript (ES6+ Modules): Para la lógica del lado del cliente, el enrutamiento SPA y la interacción dinámica.
 
 Frameworks/Librerías
-Bootstrap 5: Utilizado para un diseño responsivo robusto y componentes de interfaz de usuario pre-estilizados.
+Bootstrap 5: Para un diseño responsivo robusto y componentes de interfaz pre-estilizados.
 
-Bootstrap Icons: Para una iconografía moderna y escalable que mejora la usabilidad.
+Bootstrap Icons: Para una iconografía moderna y escalable.
 
 Backend (Simulado)
-json-server: Una herramienta ligera que simula una API RESTful, utilizando un archivo db.json como base de datos. Ideal para el desarrollo rápido y prototipos sin necesidad de un backend complejo.
+json-server: Una herramienta ligera que simula una API RESTful, usando un archivo db.json como base de datos. Ideal para el desarrollo rápido y prototipos.
 
 📂 Estructura de Carpetas
 La organización del proyecto sigue una estructura modular para facilitar la claridad y el mantenimiento del código:
@@ -84,25 +84,25 @@ CrudNote/
 ├── db.json
 ├── index.html
 └── README.md
-CrudNote/: Directorio raíz del proyecto.
+CrudNote/: El directorio principal del proyecto.
 
-css/: Contiene las hojas de estilo CSS personalizadas (style.css).
+css/: Contiene tus hojas de estilo CSS personalizadas (style.css).
 
-js/: Almacena todos los archivos JavaScript modularizados de la aplicación:
+js/: Almacena todos los archivos JavaScript modularizados:
 
 main.js: Punto de entrada principal; gestiona el enrutamiento y la orquestación de la aplicación.
 
-ui.js: Contiene las funciones para renderizar las distintas vistas de la interfaz de usuario.
+ui.js: Funciones para renderizar las vistas de la interfaz de usuario.
 
 services.js: Maneja las interacciones con la API (simulada por json-server).
 
 auth.js: Gestiona la lógica de autenticación y sesión del usuario.
 
-db.json: Archivo de datos JSON que json-server utiliza como base de datos.
+db.json: El archivo de datos JSON que json-server utiliza como "base de datos".
 
-index.html: El único archivo HTML; es el punto de entrada de la SPA.
+index.html: El único archivo HTML; es el punto de entrada de tu SPA.
 
-README.md: Este mismo archivo de documentación.
+README.md: Este archivo de documentación del proyecto.
 
 🚀 Cómo Iniciar el Proyecto
 Para poner en marcha CrudNote en tu entorno de desarrollo local, sigue estos sencillos pasos:
@@ -112,31 +112,31 @@ Asegúrate de tener instalado Node.js y su gestor de paquetes npm en tu sistema.
 
 👣 Pasos para la Configuración
 Clona o descarga el repositorio:
-Abre tu terminal o línea de comandos y ejecuta el siguiente comando para obtener el código fuente del proyecto:
+Abre tu terminal o línea de comandos y ejecuta:
 
 Bash
 
 git clone https://github.com/tu-usuario/CrudNote.git # Reemplaza con la URL real de tu repositorio
 cd CrudNote
 Instala json-server (si no lo tienes):
-json-server es fundamental para simular la API. Instálalo globalmente para que esté disponible en tu sistema:
+json-server es fundamental para simular la API. Instálalo globalmente:
 
 Bash
 
 npm install -g json-server
 Inicia el servidor de la API:
-Desde la raíz del directorio CrudNote en tu terminal, ejecuta el siguiente comando. Esto lanzará el servidor de la API en http://localhost:3000, sirviendo los datos del archivo db.json.
+Desde la raíz del directorio CrudNote en tu terminal, ejecuta este comando. El servidor se lanzará en http://localhost:3000, sirviendo los datos de db.json.
 
 Bash
 
 json-server --watch db.json
 Abre la aplicación en tu navegador:
-No necesitas un servidor web adicional para el frontend de esta SPA. Simplemente abre el archivo index.html directamente en tu navegador web preferido (por ejemplo, haciendo doble clic en él o arrastrándolo a la ventana del navegador).
+No necesitas un servidor web adicional para el frontend. Simplemente abre el archivo index.html directamente en tu navegador (doble clic o arrastrar y soltar).
 
-Importante: Para que la aplicación funcione correctamente y pueda interactuar con los datos, asegúrate de que tanto la página index.html esté abierta en tu navegador como el json-server esté ejecutándose en la terminal (http://localhost:3000).
+Importante: Para que la aplicación funcione, la página index.html debe estar abierta en tu navegador y el json-server debe estar ejecutándose en la terminal.
 
 🔑 Credenciales de Prueba
-Para explorar las diferentes funcionalidades de CrudNote, puedes usar las siguientes credenciales:
+Para explorar CrudNote, puedes usar estas credenciales:
 
 Administrador:
 
@@ -146,4 +146,4 @@ Contraseña: 123
 
 Usuario Normal:
 
-Puedes registrar un nuevo usuario directamente desde la interfaz de la aplicación, siguiendo el flujo de registro.
+Puedes registrar un nuevo usuario directamente desde la interfaz de la aplicación.
